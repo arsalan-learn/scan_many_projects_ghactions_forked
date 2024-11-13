@@ -49,7 +49,6 @@ jobs:
             #add any build steps that are needed here
             npm install -g typescript
             cd ..
-            export ENDOR_JS_ENABLE_TSSERVER=true
-            ./endorctl scan --call-graph-languages=javascript,typescript --build --secrets --dependencies --path=project   || echo "Endorctl scan failed for $CLONE_URL, continuing..."
+            ./endorctl scan --path=project   || echo "Endorctl scan failed for $CLONE_URL, continuing..."
             rm -rf project    
           done
