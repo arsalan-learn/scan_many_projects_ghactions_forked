@@ -49,6 +49,7 @@ jobs:
             #add any build steps that are needed here
             npm install -g typescript
             cd ..
+            git checkout -b another_branch_not_main
             ./endorctl scan --path=project   || echo "Endorctl scan failed for $CLONE_URL, continuing..."
             rm -rf project    
           done
