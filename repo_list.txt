@@ -1,1 +1,1 @@
-https://github.com/WhiskeySockets/Baileys.git
+https://github.com/arsalanendor/gradle_multi_project_fork.git
