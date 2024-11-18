@@ -1,1 +1,1 @@
-https://github.com/home-assistant/core.git
+https://github.com/ItzCrazyKns/Perplexica.git
