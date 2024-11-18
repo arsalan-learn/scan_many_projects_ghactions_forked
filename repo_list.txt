@@ -1,1 +1,1 @@
-https://github.com/arsalanendor/gradle_multi_project_fork.git
+https://github.com/home-assistant/core.git
