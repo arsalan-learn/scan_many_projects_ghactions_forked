@@ -50,6 +50,6 @@ jobs:
             npm install -g typescript
             cd ..
             git checkout -b another_branch_not_main
-            ./endorctl scan --path=project --install-build-tools --enable-build-tools-version-detection   || echo "Endorctl scan failed for $CLONE_URL, continuing..."
+            ./endorctl scan --path=project   || echo "Endorctl scan failed for $CLONE_URL, continuing..."
             rm -rf project    
           done
