@@ -1,1 +1,1 @@
-https://github.com/ItzCrazyKns/Perplexica.git
+https://github.com/dbt-labs/dbt-spark.git
